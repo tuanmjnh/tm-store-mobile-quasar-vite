@@ -113,7 +113,7 @@ module.exports = configure(function (ctx) {
     devServer: {
       // https: true
       open: false, // opens browser window automatically
-      port: 8000,
+      port: 8001,
       proxy: {
         '/api': {
           // target: 'https://tm-store-api.herokuapp.com',
